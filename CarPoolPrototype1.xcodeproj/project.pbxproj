@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E43409818C3DBE300ABEAB3 /* Person.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E43409518C3DBE300ABEAB3 /* Person.png */; };
+		6E43409918C3DBE300ABEAB3 /* Person1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E43409618C3DBE300ABEAB3 /* Person1.png */; };
+		6E43409A18C3DBE300ABEAB3 /* Person3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E43409718C3DBE300ABEAB3 /* Person3.png */; };
+		6E43409C18C3E20E00ABEAB3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E43409B18C3E20E00ABEAB3 /* MapKit.framework */; };
+		6E43409F18C3E27C00ABEAB3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43409E18C3E27C00ABEAB3 /* MapViewController.m */; };
 		6E68AB1118C2D0A2001E8223 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E68AB1018C2D0A2001E8223 /* Model.plist */; };
 		6E68AB1418C2D24E001E8223 /* ScheduleTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */; };
 		6EB2AEAA18C2A6770095B9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEA918C2A6770095B9AF /* Foundation.framework */; };
@@ -16,7 +21,6 @@
 		6EB2AEB618C2A6770095B9AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2AEB518C2A6770095B9AF /* main.m */; };
 		6EB2AEBA18C2A6770095B9AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2AEB918C2A6770095B9AF /* AppDelegate.m */; };
 		6EB2AEBD18C2A6770095B9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB2AEBB18C2A6770095B9AF /* Main.storyboard */; };
-		6EB2AEC018C2A6770095B9AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2AEBF18C2A6770095B9AF /* ViewController.m */; };
 		6EB2AEC218C2A6770095B9AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB2AEC118C2A6770095B9AF /* Images.xcassets */; };
 		6EB2AEC918C2A6780095B9AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEC818C2A6780095B9AF /* XCTest.framework */; };
 		6EB2AECA18C2A6780095B9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEA918C2A6770095B9AF /* Foundation.framework */; };
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E43409518C3DBE300ABEAB3 /* Person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Person.png; sourceTree = "<group>"; };
+		6E43409618C3DBE300ABEAB3 /* Person1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Person1.png; sourceTree = "<group>"; };
+		6E43409718C3DBE300ABEAB3 /* Person3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Person3.png; sourceTree = "<group>"; };
+		6E43409B18C3E20E00ABEAB3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E43409D18C3E27C00ABEAB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6E43409E18C3E27C00ABEAB3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6E68AB1018C2D0A2001E8223 /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
 		6E68AB1218C2D24E001E8223 /* ScheduleTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTripViewController.h; sourceTree = "<group>"; };
 		6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTripViewController.m; sourceTree = "<group>"; };
@@ -50,8 +60,6 @@
 		6EB2AEB818C2A6770095B9AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EB2AEB918C2A6770095B9AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6EB2AEBC18C2A6770095B9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6EB2AEBE18C2A6770095B9AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EB2AEBF18C2A6770095B9AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6EB2AEC118C2A6770095B9AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6EB2AEC718C2A6780095B9AF /* CarPoolPrototype1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPoolPrototype1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB2AEC818C2A6780095B9AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E43409C18C3E20E00ABEAB3 /* MapKit.framework in Frameworks */,
 				6EB2AEAC18C2A6770095B9AF /* CoreGraphics.framework in Frameworks */,
 				6EB2AEAE18C2A6770095B9AF /* UIKit.framework in Frameworks */,
 				6EB2AEAA18C2A6770095B9AF /* Foundation.framework in Frameworks */,
@@ -106,6 +115,7 @@
 		6EB2AEA818C2A6770095B9AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E43409B18C3E20E00ABEAB3 /* MapKit.framework */,
 				6EB2AEA918C2A6770095B9AF /* Foundation.framework */,
 				6EB2AEAB18C2A6770095B9AF /* CoreGraphics.framework */,
 				6EB2AEAD18C2A6770095B9AF /* UIKit.framework */,
@@ -117,14 +127,17 @@
 		6EB2AEAF18C2A6770095B9AF /* CarPoolPrototype1 */ = {
 			isa = PBXGroup;
 			children = (
+				6E43409518C3DBE300ABEAB3 /* Person.png */,
+				6E43409618C3DBE300ABEAB3 /* Person1.png */,
+				6E43409718C3DBE300ABEAB3 /* Person3.png */,
 				6EB2AEBB18C2A6770095B9AF /* Main.storyboard */,
 				6E68AB1018C2D0A2001E8223 /* Model.plist */,
-				6EB2AEBE18C2A6770095B9AF /* ViewController.h */,
-				6EB2AEBF18C2A6770095B9AF /* ViewController.m */,
 				6E68AB1218C2D24E001E8223 /* ScheduleTripViewController.h */,
 				6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */,
 				6EB2AEC118C2A6770095B9AF /* Images.xcassets */,
 				6EB2AEB018C2A6770095B9AF /* Supporting Files */,
+				6E43409D18C3E27C00ABEAB3 /* MapViewController.h */,
+				6E43409E18C3E27C00ABEAB3 /* MapViewController.m */,
 			);
 			path = CarPoolPrototype1;
 			sourceTree = "<group>";
@@ -238,7 +251,10 @@
 			files = (
 				6EB2AEC218C2A6770095B9AF /* Images.xcassets in Resources */,
 				6EB2AEB418C2A6770095B9AF /* InfoPlist.strings in Resources */,
+				6E43409918C3DBE300ABEAB3 /* Person1.png in Resources */,
+				6E43409A18C3DBE300ABEAB3 /* Person3.png in Resources */,
 				6E68AB1118C2D0A2001E8223 /* Model.plist in Resources */,
+				6E43409818C3DBE300ABEAB3 /* Person.png in Resources */,
 				6EB2AEBD18C2A6770095B9AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,10 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB2AEC018C2A6770095B9AF /* ViewController.m in Sources */,
 				6EB2AEBA18C2A6770095B9AF /* AppDelegate.m in Sources */,
 				6E68AB1418C2D24E001E8223 /* ScheduleTripViewController.m in Sources */,
 				6EB2AEB618C2A6770095B9AF /* main.m in Sources */,
+				6E43409F18C3E27C00ABEAB3 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

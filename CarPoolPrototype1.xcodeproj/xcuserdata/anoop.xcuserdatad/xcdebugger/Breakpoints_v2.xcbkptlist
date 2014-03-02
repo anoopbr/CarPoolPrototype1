@@ -25,7 +25,7 @@
                   symbolName = "-[ScheduleTripViewController modelPicker]"
                   moduleName = "CarPoolPrototype1"
                   urlString = "file:///Users/anoop/xcode/CarPoolPrototype1/CarPoolPrototype1/ScheduleTripViewController.h"
-                  timestampString = "415427542.647857"
+                  timestampString = "415490113.707943"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -39,7 +39,7 @@
                   symbolName = "-[ScheduleTripViewController setModelPicker:]"
                   moduleName = "CarPoolPrototype1"
                   urlString = "file:///Users/anoop/xcode/CarPoolPrototype1/CarPoolPrototype1/ScheduleTripViewController.h"
-                  timestampString = "415427542.648118"
+                  timestampString = "415490113.709595"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -47,6 +47,20 @@
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarPoolPrototype1/MyTripViewController.h"
+            timestampString = "415435944.165988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
