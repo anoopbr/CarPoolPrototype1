@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E68AB1118C2D0A2001E8223 /* Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E68AB1018C2D0A2001E8223 /* Model.plist */; };
+		6E68AB1418C2D24E001E8223 /* ScheduleTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */; };
 		6EB2AEAA18C2A6770095B9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEA918C2A6770095B9AF /* Foundation.framework */; };
 		6EB2AEAC18C2A6770095B9AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEAB18C2A6770095B9AF /* CoreGraphics.framework */; };
 		6EB2AEAE18C2A6770095B9AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB2AEAD18C2A6770095B9AF /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E68AB1018C2D0A2001E8223 /* Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Model.plist; sourceTree = "<group>"; };
+		6E68AB1218C2D24E001E8223 /* ScheduleTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTripViewController.h; sourceTree = "<group>"; };
+		6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTripViewController.m; sourceTree = "<group>"; };
 		6EB2AEA618C2A6770095B9AF /* CarPoolPrototype1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPoolPrototype1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB2AEA918C2A6770095B9AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EB2AEAB18C2A6770095B9AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,11 +117,12 @@
 		6EB2AEAF18C2A6770095B9AF /* CarPoolPrototype1 */ = {
 			isa = PBXGroup;
 			children = (
-				6EB2AEB818C2A6770095B9AF /* AppDelegate.h */,
-				6EB2AEB918C2A6770095B9AF /* AppDelegate.m */,
 				6EB2AEBB18C2A6770095B9AF /* Main.storyboard */,
+				6E68AB1018C2D0A2001E8223 /* Model.plist */,
 				6EB2AEBE18C2A6770095B9AF /* ViewController.h */,
 				6EB2AEBF18C2A6770095B9AF /* ViewController.m */,
+				6E68AB1218C2D24E001E8223 /* ScheduleTripViewController.h */,
+				6E68AB1318C2D24E001E8223 /* ScheduleTripViewController.m */,
 				6EB2AEC118C2A6770095B9AF /* Images.xcassets */,
 				6EB2AEB018C2A6770095B9AF /* Supporting Files */,
 			);
@@ -126,6 +132,8 @@
 		6EB2AEB018C2A6770095B9AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EB2AEB818C2A6770095B9AF /* AppDelegate.h */,
+				6EB2AEB918C2A6770095B9AF /* AppDelegate.m */,
 				6EB2AEB118C2A6770095B9AF /* CarPoolPrototype1-Info.plist */,
 				6EB2AEB218C2A6770095B9AF /* InfoPlist.strings */,
 				6EB2AEB518C2A6770095B9AF /* main.m */,
@@ -230,6 +238,7 @@
 			files = (
 				6EB2AEC218C2A6770095B9AF /* Images.xcassets in Resources */,
 				6EB2AEB418C2A6770095B9AF /* InfoPlist.strings in Resources */,
+				6E68AB1118C2D0A2001E8223 /* Model.plist in Resources */,
 				6EB2AEBD18C2A6770095B9AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 			files = (
 				6EB2AEC018C2A6770095B9AF /* ViewController.m in Sources */,
 				6EB2AEBA18C2A6770095B9AF /* AppDelegate.m in Sources */,
+				6E68AB1418C2D24E001E8223 /* ScheduleTripViewController.m in Sources */,
 				6EB2AEB618C2A6770095B9AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +470,7 @@
 				6EB2AEDA18C2A6780095B9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB2AEDB18C2A6780095B9AF /* Build configuration list for PBXNativeTarget "CarPoolPrototype1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				6EB2AEDD18C2A6780095B9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
