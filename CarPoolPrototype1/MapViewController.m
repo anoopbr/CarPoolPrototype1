@@ -14,6 +14,32 @@
 
 @implementation MapViewController
 
+@synthesize mapview;
+
+-(IBAction)getLocation{
+    
+    mapview.showsUserLocation = YES;
+    
+}
+
+-(IBAction)setMap:(id)sender{
+    
+    switch (((UISegmentedControl *)sender).selectedSegmentIndex) {
+        case 0:
+            mapview.mapType = MKMapTypeStandard;
+            break;
+        case 1:
+            mapview.mapType = MKMapTypeSatellite;
+            break;
+        case 2:
+            mapview.mapType = MKMapTypeHybrid;
+            break;  
+        default:
+            break;
+    }
+    
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
