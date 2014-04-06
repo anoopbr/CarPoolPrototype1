@@ -25,7 +25,7 @@
                   symbolName = "-[ScheduleTripViewController modelPicker]"
                   moduleName = "CarPoolPrototype1"
                   urlString = "file:///Users/anoop/xcode/CarPoolPrototype1/CarPoolPrototype1/ScheduleTripViewController.h"
-                  timestampString = "417464772.459301"
+                  timestampString = "418504510.832465"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -39,12 +39,12 @@
                   symbolName = "-[ScheduleTripViewController setModelPicker:]"
                   moduleName = "CarPoolPrototype1"
                   urlString = "file:///Users/anoop/xcode/CarPoolPrototype1/CarPoolPrototype1/ScheduleTripViewController.h"
-                  timestampString = "417464772.459673"
+                  timestampString = "418504510.832886"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
                   endingLineNumber = "15"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "31">
                </Location>
             </Locations>
          </BreakpointContent>
